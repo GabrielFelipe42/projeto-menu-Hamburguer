@@ -1,0 +1,37 @@
+@charset "UTF08";
+
+/*
+-----------------------------
+ Typical divice breakpoints
+ Pequenas telas: até 600px
+ Celular: 600 até 768px
+ Tablet: 768px até 992px
+ PC: 992px até 1200px
+ Grandes Telas: 1200px até além
+ --------------------------------
+*/
+
+
+@media screen and (min-width:768px) {
+    span#menuzinho {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu li {
+        display: inline-block;
+    }
+
+    menu a {
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    main {
+        width: 768px;
+    }
+}
